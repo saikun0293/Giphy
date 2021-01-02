@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Sail&display=swap");
+
+.App {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  text-align: center;
+  background: black;
+}
+
+.title {
+  font-family: "Sail";
+  font-size: 100px;
+  color: #fff;
+  text-shadow: 0 0 10px #03bcf4, 0 0 20px #03bcf4, 0 0 40px #03bcf4,
+    0 0 80px #03bcf4, 0 0 160px #03bcf4;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.load-more {
+  position: relative;
+  display: inline-block;
+  padding: 10px 10px;
+  color: #03e9f4;
+  margin: 2px 20px;
+  font-size: 13px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.5s;
+  letter-spacing: 4px;
+  border: 2px solid #03e9f4;
+  background: rgba(0, 0, 0, 0);
+  -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+}
+
+.load-more:hover {
+  background: #03e9f4;
+  color: #050801;
+  box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4,
+    0 0 200px #03e9f4;
+}
